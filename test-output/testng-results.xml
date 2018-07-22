@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="892" started-at="2018-07-14T20:12:04Z" finished-at="2018-07-14T20:12:04Z">
+  <suite name="Default suite" duration-ms="1057" started-at="2018-07-22T15:33:21Z" finished-at="2018-07-22T15:33:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="892" started-at="2018-07-14T20:12:04Z" finished-at="2018-07-14T20:12:04Z">
+    <test name="Default test" duration-ms="1057" started-at="2018-07-22T15:33:21Z" finished-at="2018-07-22T15:33:22Z">
       <class name="com.qa.test.GetAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@735b5592]" name="setUp" is-config="true" duration-ms="6" started-at="2018-07-14T16:12:04Z" finished-at="2018-07-14T16:12:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@4f933fd1]" name="setUp" is-config="true" duration-ms="6" started-at="2018-07-22T11:33:21Z" finished-at="2018-07-22T11:33:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="checkAPIStatusTest()[pri:0, instance:com.qa.test.GetAPITest@735b5592]" name="checkAPIStatusTest" duration-ms="842" started-at="2018-07-14T16:12:04Z" finished-at="2018-07-14T16:12:04Z">
+        <test-method status="FAIL" signature="checkAPIStatusTest()[pri:0, instance:com.qa.test.GetAPITest@4f933fd1]" name="checkAPIStatusTest" duration-ms="998" started-at="2018-07-22T11:33:21Z" finished-at="2018-07-22T11:33:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Status code is not 201 expected [201] but found [200]]]>
@@ -23,19 +23,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAPIStatusTest -->
-        <test-method status="PASS" signature="getAPIHeaderTest()[pri:0, instance:com.qa.test.GetAPITest@735b5592]" name="getAPIHeaderTest" duration-ms="2" started-at="2018-07-14T16:12:04Z" finished-at="2018-07-14T16:12:04Z">
+        <test-method status="PASS" signature="getAPIHeaderTest()[pri:0, instance:com.qa.test.GetAPITest@4f933fd1]" name="getAPIHeaderTest" duration-ms="2" started-at="2018-07-22T11:33:22Z" finished-at="2018-07-22T11:33:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPIHeaderTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@735b5592]" name="setUp" is-config="true" duration-ms="0" started-at="2018-07-14T16:12:04Z" finished-at="2018-07-14T16:12:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@4f933fd1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-07-22T11:33:22Z" finished-at="2018-07-22T11:33:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getAPIJSONBodyTest()[pri:0, instance:com.qa.test.GetAPITest@735b5592]" name="getAPIJSONBodyTest" duration-ms="10" started-at="2018-07-14T16:12:04Z" finished-at="2018-07-14T16:12:04Z">
+        <test-method status="PASS" signature="getAPIJSONBodyTest()[pri:0, instance:com.qa.test.GetAPITest@4f933fd1]" name="getAPIJSONBodyTest" duration-ms="18" started-at="2018-07-22T11:33:22Z" finished-at="2018-07-22T11:33:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPIJSONBodyTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@735b5592]" name="setUp" is-config="true" duration-ms="0" started-at="2018-07-14T16:12:04Z" finished-at="2018-07-14T16:12:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@4f933fd1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-07-22T11:33:22Z" finished-at="2018-07-22T11:33:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
