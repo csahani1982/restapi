@@ -17,7 +17,7 @@ import org.testng.log4testng.Logger;
 public class RestClient {
 	
 	String url ;
-	Logger log = Logger.getLogger(RestClient.class);
+	Logger log1 = Logger.getLogger(RestClient.class);
 	
 	
 //1. Get Method
@@ -25,7 +25,7 @@ public class RestClient {
 		
 		CloseableHttpClient HttpClient = HttpClients.createDefault();
 		HttpGet httpget = new HttpGet(url);
-		log.info("GETTING the IRL : By CHETAN");
+		//log1.info("GETTING the IRL : By CHETAN");
 		CloseableHttpResponse closeablehttpRespons = HttpClient.execute(httpget);
 		return closeablehttpRespons;
 		

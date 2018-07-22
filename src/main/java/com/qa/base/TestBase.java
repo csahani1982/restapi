@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 public class TestBase {
 	
 	public Properties prop;
-	Logger log = Logger.getLogger(TestBase.class);
+	public Logger log = Logger.getLogger(TestBase.class);
 	
 	public TestBase() {
 		
